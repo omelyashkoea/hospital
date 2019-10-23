@@ -2,7 +2,7 @@ Spring Hospital Sample Application
 ===============================
 Полнофункциональное Spring/JPA Enterprise приложения c авторизацией и правами доступа на основе ролей с использованием наиболее популярных инструментов и технологий Java: Maven, Spring MVC, Security, JPA(Hibernate), REST(Jackson), Bootstrap (css,js), datatables, jQuery + plugins, Java 8 Stream and Time API и хранением в базах данных Postgresql и HSQLDB.
 
-### <a href="http://hospital.herokuapp.com/" target=_blank>Демо разрабатываемого приложения</a>
+### <a href="http://hospital-spring.herokuapp.com/" target=_blank>Демо разрабатываемого приложения</a>
 
 ![image](https://user-images.githubusercontent.com/56883656/67366078-d97ed680-f583-11e9-99a0-6a5eae5ef0b0.png)
 
