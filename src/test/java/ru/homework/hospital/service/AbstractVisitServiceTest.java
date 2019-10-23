@@ -100,6 +100,6 @@ public abstract class AbstractVisitServiceTest extends AbstractServiceTest {
         validateRootCause(() -> service.create(new Visit(null, of(2015, Month.JUNE, 1, 18, 0), "  ", "Терапевт"), UserTestData.USER_ID), ConstraintViolationException.class);
         validateRootCause(() -> service.create(new Visit(null, null, "Description", "Невролог"), UserTestData.USER_ID), ConstraintViolationException.class);
         validateRootCause(() -> service.create(new Visit(null, of(2015, Month.JUNE, 1, 18, 0), "Description", "Врач"), UserTestData.USER_ID), ConstraintViolationException.class);
-        validateRootCause(() -> service.create(new Visit(null, of(2015, Month.JUNE, 1, 18, 0), "Description", "Гинеколог1".repeat(500)), UserTestData.USER_ID), ConstraintViolationException.class);
+        validateRootCause(() -> service.create(new Visit(null, of(2015, Month.JUNE, 1, 18, 0), "Description", "Гинеколог1"), UserTestData.USER_ID), ConstraintViolationException.class);
     }
 }

@@ -62,6 +62,9 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+                    <verbose>true</verbose>
+                    <fork>true</fork>
+                    <executable>C:\Program Files\Java\jdk-11.0.1\bin\javac</executable>
                 </configuration>
             </plugin>
             <plugin>

@@ -15,9 +15,9 @@ public class UserTestData {
     public static final int ADMIN_ID = START_SEQ + 1;
     public static final int USER_2_ID = START_SEQ + 2;
 
-    public static final User USER = new User(USER_ID, "User", "user@yandex.ru", "password", "Терапевт", Role.ROLE_USER);
-    public static final User ADMIN = new User(ADMIN_ID, "Admin", "admin@gmail.com", "admin", "Админ", Role.ROLE_ADMIN, Role.ROLE_USER);
-    public static final User USER_2 = new User(USER_2_ID, "User2", "user@gmail.com", "admin", "Невролог", Role.ROLE_USER);
+    public static final User USER = new User(USER_ID, "Терапевт", "user@yandex.ru", "password", "Терапевт", Role.ROLE_USER);
+    public static final User ADMIN = new User(ADMIN_ID, "Администратор", "admin@gmail.com", "admin", "Админ", Role.ROLE_ADMIN, Role.ROLE_USER);
+    public static final User USER_2 = new User(USER_2_ID, "Невролог", "user@gmail.com", "admin", "Невролог", Role.ROLE_USER);
 
 
     public static void assertMatch(User actual, User expected) {
